@@ -1,0 +1,316 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Rubik, sans-serif;
+  columns: #444;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1100px;
+}
+
+h1 {
+  font-size: 42px;
+  margin-bottom: 32px;
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.6;
+  margin-bottom: 48px;
+}
+
+header {
+  height: 100vh;
+  position: relative;
+
+  background-image: linear-gradient(
+      rgba(34, 34, 34, 0.6),
+      rgba(34, 34, 34, 0.6)
+    ),
+    url(../images/LPBG_2.jpg);
+  background-size: cover;
+  color: #fff;
+}
+
+.navigation {
+  font-size: 20px;
+}
+
+.clear {
+  clear: both;
+}
+
+.clearflix::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+a:link {
+  margin-right: 30px;
+  margin-top: 20px;
+  /* display: inline-block; */
+  text-decoration: none;
+  color: #fff;
+  float: right;
+}
+
+a:visited {
+  color: #fff;
+}
+
+a:hover {
+  color: orangered;
+}
+
+.logo {
+  float: left;
+  margin-top: 10px;
+  font-size: 45px;
+}
+
+body {
+  /* height: 800px; */
+  /* padding: 30px; */
+  border-top: 12px solid #dccc21;
+  line-height: 1;
+}
+
+li a:hover {
+  background-color: lightblue;
+}
+
+img {
+  padding-left: 150px;
+}
+
+p {
+  font-family: Arial, Helvetica, Geneva, Swiss, sans-serif;
+  font: black;
+}
+
+h3 {
+  margin-left: 111px;
+}
+
+h2 {
+  font-size: 33px;
+  margin-bottom: 38px;
+}
+
+.hero-text {
+  /* padding-top: 450px; */
+  padding-top: 350px;
+}
+section {
+  padding: 75px 0;
+  background-color: #f7f7f7;
+}
+
+.btn:link,
+.btn:visited {
+  font-size: 20px;
+  font-weight: 400;
+  background-color: #dccc21;
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  padding: 16px 27px;
+  border-radius: 9px;
+}
+
+.btn:hover {
+  color: red;
+}
+
+/*********** Accordion Styles ************/
+
+.accordion {
+  width: 700px;
+  margin: 100px auto;
+  /* background-color: azure; */
+
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.item {
+  box-shadow: 0 0 32px rgba(0, 0, 0, 0.1);
+  padding: 24px;
+
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  column-gap: 24px;
+  row-gap: 32px;
+  align-items: center;
+}
+
+.number,
+.text {
+  font-size: 24px;
+  font-weight: 500;
+  /* color: #087f5b; */
+}
+
+.number {
+  color: #ced4da;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  stroke: #087f5b;
+}
+
+.hidden-box {
+  grid-column: 2;
+  display: none;
+}
+
+.hidden-box p {
+  line-height: 1.6;
+  margin-bottom: 24px;
+}
+
+.hidden-box ul {
+  color: #868e96;
+  margin-left: 20px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.open {
+  border-top: 4px solid #087f5b;
+}
+
+.open .hidden-box {
+  display: block;
+}
+
+.open .number,
+.open .text {
+  color: #087f5b;
+}
+
+/*********** Mailing List Section ************/
+
+.mailing-list {
+  padding: 39px 0;
+}
+
+.mle {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  /* background-color: #087f5b; */
+  height: 38rem;
+  border-radius: 11px;
+  background-image: linear-gradient(to right bottom, #087f5b, #84bfad);
+}
+
+.ml-image-box {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(8, 127, 91, 0.3),
+      rgba(132, 191, 173, 0.3)
+    ),
+    url(../images/eating.jpg);
+  border-radius: 0 11px 11px 0;
+  background-size: cover;
+  background-position: center;
+  margin-left: 35px;
+}
+
+.mailing-lists-text {
+  padding: 0.7rem 2.4rem 0 2.4rem;
+  color: #02261b;
+}
+
+.list-text-box-heading {
+  padding: 3.4rem 2.4rem 0 2.4rem;
+  color: #02261b;
+}
+
+.ml-form {
+  padding: 0 0 0 2.5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 1.2rem;
+  row-gap: 1.8rem;
+}
+
+.ml-form label {
+  display: block;
+  font-size: 20px;
+  font-weight: 250;
+  margin-bottom: 15px;
+  color: #02261b;
+}
+.ml-form input {
+  width: 100%;
+  padding: 10px;
+  font-size: 17px;
+  font-family: inherit;
+  border: none;
+  background-color: #daf1ea;
+  border-radius: 9px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.ml-form input::placeholder {
+  color: #aaa;
+}
+.ml-form select {
+  width: 100%;
+  padding: 10px;
+  font-size: 17px;
+  font-family: inherit;
+  border: none;
+  background-color: #daf1ea;
+  border-radius: 9px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+.ml-form button {
+  font-size: 23px;
+  font-weight: 400;
+  background-color: #dccc21;
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 9px;
+  cursor: pointer;
+  align-self: end;
+}
+
+.ml-form button:hover {
+  color: #fff;
+  background-color: #02261b;
+}
+
+/*********** Footer ************/
+
+footer {
+  height: 100px;
+  margin: 0 auto;
+  background-color: #02261b;
+  color: #fff;
+  /* position: relative; */
+  bottom: 0;
+}
+
+footer p {
+  height: 100px;
+  width: 365px;
+  margin: 0px auto;
+  padding-top: 75px;
+}

@@ -1,0 +1,214 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.whole-about {
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/LPBG_2.jpg);
+}
+.container-about {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+body {
+  border-top: 12px solid #dccc21;
+  line-height: 1;
+}
+
+h1 {
+  float: left;
+  margin-top: 12px;
+}
+.about-us-1 {
+  padding-top: 50px;
+}
+.about-logo {
+  float: left;
+  margin-top: 12px;
+  color: #fff;
+}
+
+h2 {
+  margin: 0 20px 20px 20px;
+  font-size: 30px;
+}
+
+.about-logo-2 {
+  margin-left: 500px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 30px;
+  margin-bottom: 50px;
+  width: 568px;
+  padding-left: 9%;
+}
+nav {
+  float: right;
+}
+
+/* .clear {
+  clear: both;
+} */
+
+.clearfix::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+a:link {
+  text-decoration: none;
+  font-size: 25px;
+  margin-left: 15px;
+}
+
+nav {
+  margin-top: 15px;
+}
+.main-section {
+  width: 1100px;
+  height: 650px;
+  margin: 220px 65px 0px 0px;
+}
+
+.main-section-about {
+  width: 1100px;
+  height: 850px;
+  margin: 20px 65px 30px 0px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+img {
+  float: left;
+  margin-right: 75px;
+  margin-bottom: 50px;
+}
+
+.main-section-about p {
+  font-family: sans-serif;
+  font-size: 16px;
+  margin-left: 35px;
+  margin-right: 35px;
+  line-height: 1.5;
+}
+
+.contact-us-1 {
+  width: 300px;
+  height: 250px;
+  margin-right: 35px;
+  line-height: 1.5;
+  padding-top: 18px;
+  margin-left: 15px;
+}
+
+.list-text-box-heading {
+  /* padding-left: 5.5%; */
+}
+
+.contact-list {
+  margin-left: 450px;
+  margin-top: -270px;
+  width: 600px;
+  height: 400px;
+  background-color: #dccc21;
+  padding-left: 18px;
+  padding-top: 18px;
+  border-radius: 9px;
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.1);
+}
+
+/******** FORM STYLES *************/
+.mle {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.ml-form {
+  padding-left: 22px;
+  column-gap: 1.1rem;
+  row-gap: 1.5rem;
+}
+
+.ml-form label {
+  display: block;
+  font-size: 20px;
+  font-weight: 250;
+  margin-bottom: 10px;
+  margin-top: 15px;
+  color: #02261b;
+}
+.ml-form input {
+  width: 85%;
+  padding: 10px;
+  font-size: 17px;
+  font-family: inherit;
+  border: none;
+  background-color: #daf1ea;
+  border-radius: 9px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.ml-form input::placeholder {
+  color: #aaa;
+}
+
+.ml-form select {
+  width: 42%;
+  padding: 10px;
+  font-size: 17px;
+  font-family: inherit;
+  border: none;
+  background-color: #daf1ea;
+  border-radius: 9px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.ml-form button {
+  font-size: 23px;
+  font-weight: 400;
+  background-color: #21dcc6;
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 9px;
+  cursor: pointer;
+  align-self: end;
+  margin-top: 15px;
+}
+
+.ml-form button:hover {
+  color: #fff;
+  background-color: #02261b;
+}
+
+/******* FOOTER *********/
+
+footer {
+  height: 100px;
+  margin: 0 auto;
+  background-color: #02261b;
+  color: #fff;
+  /* position: relative; */
+  bottom: 0;
+}
+
+footer p {
+  height: 50px;
+  width: 365px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
